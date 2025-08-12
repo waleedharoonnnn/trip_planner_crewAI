@@ -2,8 +2,8 @@ from crewai import Agent
 from textwrap import dedent
 from langchain_openai import ChatOpenAI
 
-from tools.search_tools import SearchTools
-from tools.calculator_tools import CalculatorTools
+from tools.searchtool import SearchTools
+from tools.calculatortools import CalculatorTools
 
 """
 Creating Agents Cheat Sheet:
